@@ -20,11 +20,14 @@ const superMario= new producto("Super Mario", 14000);
 const battlefield = new producto("Battlefield", 9999);
 const eldenRing= new producto("Elden Ring", 6000);
 
+
 const arrayProductos = [redDeadRedemption, fifa, cyberpunk, superMario, battlefield, eldenRing];
 console.log("array productos en Stock: ");
 console.log(arrayProductos);
+
 //Agregar juegos 
-const sims= new producto("Sims", 7000);
+const sims= new producto(prompt("ingrese un juego"), parseInt(8000) );
+alert("el precio del juego es de 8000")
 arrayProductos.push(sims);
 console.log("nuevo juego: ");
 console.log(arrayProductos);
